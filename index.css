@@ -1,0 +1,31 @@
+div.header h1
+{
+  padding-left: 250px;
+  
+}
+@media screen and (min-width: 1051px) {
+  div.header h1
+  {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  div.header h1
+  {
+    font-size: 45px;
+  }
+}
+.footer
+{
+    border: 5px solid goldenrod;
+    margin: 5px;
+}
+img
+{
+    border: 5px solid goldenrod;
+}
+.box
+{
+  border: 2px solid goldenrod;
+}

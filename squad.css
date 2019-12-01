@@ -1,0 +1,76 @@
+div.header h1
+{
+  padding-left: 250px;
+  
+}
+@media screen and (min-width: 1051px) {
+  div.header h1
+  {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  div.header h1
+  {
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 1051px){
+div.box li
+{
+    font-size: 30px;
+}
+}
+
+@media screen and (max-width: 1050px) {
+  div.box li
+  {
+    font-size: 15px;
+  }
+}
+#players
+{
+    font-size: 30px;
+    margin: 30px;
+}
+.box
+{
+    border: 5px solid goldenrod;
+    background-color: white;
+    overflow: hidden;
+    margin: 10px;
+}
+.box a
+{
+    color: black;
+    text-decoration: none;
+}
+.box li
+{
+    font-size: 30px;
+    margin: 30px;
+}
+#remove_number
+{
+    list-style-type: none;
+}
+#remove_number:before
+{ 
+    content: attr(seq) ".";
+
+    
+}
+#remove_num
+{
+    list-style-type: none;
+}
+img
+{
+    border: 5px solid goldenrod
+}
+footer
+{
+    margin: 10px;
+    border: 5px solid goldenrod;
+}

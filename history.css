@@ -1,0 +1,75 @@
+div.header h1
+{
+  padding-left: 250px;
+  
+}
+@media screen and (min-width: 1051px) {
+  div.header h1
+  {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  div.header h1
+  {
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 1051px) {
+  div.box p
+  {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  div.box p
+  {
+    font-size: 10px;
+  }
+}
+p
+{
+    font-size: 20px;
+}
+img
+{
+  border: 5px solid goldenrod;
+}
+div.box
+{
+  border: 5px solid goldenrod;
+  background-color: white;
+  overflow: hidden;
+  margin-left:  300px;
+  margin-right: 300px;
+}
+div.box p
+{
+  font-size: 1.9em;
+  padding: 50px;
+}
+div.box2 p
+{
+  font-size: 1.2em;
+  padding: 100px;
+
+}
+div.box2
+{
+
+  border: 5px solid goldenrod;
+  background-color: white;
+  overflow: hidden;
+  border-bottom: none;
+  
+}
+.footer
+{
+  border: 2px solid goldenrod;
+  margin: 5px;
+}
+.box2 img
+{
+  border: none;
+  float: right;
+}
